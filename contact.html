@@ -22,26 +22,43 @@
 
         <nav class="navigation">
             <ul>
-                <li><a href="contact.html">Contact Us </a></li>
+                <li><a href="contact.html" class="contact-active">Contact Us </a></li>
             </ul>
         </nav>
 
     </header>
+    <section>
 
+        <div class="contact-main">
+            <div class="gif-box">
+                <iframe src="https://giphy.com/embed/dRvEZLV0ORAmHT1L5u" class="gif1" allowFullScreen></iframe>
+            </div>
+            <div class="contact-box">
+                <h2 class="contact-heading">Leave a comment <i class="far fa-comment"></i></h2>
+                <p class="contact-heading-text">Do you have any comments or feedbacks ?</p>
+                <p>Great! Enter your information below to get in touch <i class="fas fa-arrow-down"></i></p>
 
-    <div class="box">
-        <div>
-            <iframe class="gif0" src="https://giphy.com/embed/Ztfno2Qtm2dVxS81f5" allowFullScreen></iframe></div>
-        <h3 class="welcome-text">Is it true that you enjoy going through Quotes ?</h3>
-        <p class="welcome-p">If so, you are in for a treat! <i class="far fa-grin-stars"></i></p>
-        <div class="video-box"></div>
+            </div>
+            <div>
+                <form class="contact-form" action="https://formsubmit.co/soyaronur@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_autoresponse"
+                        value="Hello there! Thank you for getting in touch. We will reply to your feedback/Comment as soon as we can. ">
+                    <label class="form-name" for="name-input">Name</label>
+                    <input class="name-input" type="text" name="name" placeholder="Full Name" required><br>
+                    <label class="form-email" for="email-input">Email </label>
+                    <input class="email-input" type="email" name="email" placeholder="Email Address" required><br>
+                    <label class="form-message">Comments below <i class="fas fa-arrow-down"></i></label><br>
+                    <textarea class="message-input" name="message" placeholder="Comments or any feedbacks"
+                        required></textarea><br>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
 
-        <a href="generator.html"><button class="main-start" type="button">Let's start!</button></a>
-    </div>
+        </div>
 
-
-    </div>
-
+    </section>
 
 
     <footer>
