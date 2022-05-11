@@ -198,6 +198,13 @@ footer {
     border: 7px solid #FEB139;
 }
 
+.home-video {
+    width: 95%;
+    height: 520px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 /* The start button for the quote generator page */
 .main-start {
     margin-top: 40px;
@@ -341,14 +348,14 @@ footer {
     padding: 20px;
 }
 
-/* The quotes generator section */
+/* The quotes generator page*/
 
 /* The generator box */
 .generator-box {
     margin: 0 auto;
     margin-top: 100px;
     width: 55%;
-    height: 400px;
+    height: 440px;
     background-color: #143F6B;
     border: 3px solid black;
     border-radius: 15px;
