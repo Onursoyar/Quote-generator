@@ -324,7 +324,7 @@ footer {
     background-color: whitesmoke;
 }
 
-/* COntact page giphy */
+/* Contact page giphy */
 .gif-box {
     height: 460px;
     width: 75%;
@@ -342,4 +342,54 @@ footer {
 }
 
 /* The quotes generator section */
+
 /* The generator box */
+.generator-box {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 55%;
+    height: 400px;
+    background-color: #143F6B;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+/* Generator heading and paragraph */
+.quote-section {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.quotes {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.quotee {
+    color: #F55353;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* Generate Button */
+.quoteButtons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.newQuote {
+    font-size: 25px;
+    background-color: whitesmoke;
+    padding: 6px;
+    color: #143F6B;
+    border: 3px solid #FEB139;
+    border-radius: 10px;
+}
+
+.newQuote:hover {
+    color: #143F6B;
+    background-color: whitesmoke;
+    border: 8px solid #FEB139;
+}

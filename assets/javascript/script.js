@@ -1,6 +1,5 @@
 const text = document.getElementById('quotes');
 const author = document.getElementById('quotee');
-const sendTweet = document.getElementById('tweet');
 
 const generateNew = async () => {
 
@@ -23,8 +22,6 @@ const generateNew = async () => {
 
     text.innerHTML = quotes;
     author.innerHTML = '-' + originator;
-
-    sendTweet.href = "https://twitter.com/intent/tweet?text=" + quotes + '-' + originator;
 
 };
 
