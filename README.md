@@ -1,108 +1,160 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Onursoyar,
+<h1 align="center"> Portfolio Project 2 </h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live project here.](https://onursoyar.github.io/Quote-generator/index.html)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+I have created this website with the sole purpose of encouraging and motivating people adn to be able to generate hundreds of quotes is even better. This is website is a simple website htat uses html,css and javascript to be able to run everything.
+<img src="assets/images/responsive.png">
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-   ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Returning Visitor, I want to find information about updated and new quotes.
+        2. As a Returning Visitor, I want to submit my own and new quotes adn generate new ones..
+        3. As a Returning Visitor, I want to find community links.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check to see if there are any newly added functions regarding quotes, videos and more.
+        2. As a Frequent User, I want to sign up to the website so that I am emailed any major updates and/or changes to the website.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -  ### Design
+      - I myself have created the background picture and wanted it to fit to the website perfectly without interrupting other colors.
+    -   #### Colour Scheme
+        -   The main colours used are whitesmoke, ##FEB139, #143F6B, black and #F55353. I have got the inspiration for the colors at [View](https://colorhunt.co/)
+        The Color Palette; 
+        <img src="assets/images/pallete.png">
+    -   #### Typography
+        -   The Amaranth font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amaranth is a simple font which is both attractive and appropriate.
+    -   #### Videos
+        -   The large, background video is designed to be striking and catch the user's attention. It is also relevant and explanatory.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+*   ### Wireframes
 
-------
+    -   Home Page Wireframe;
+    <img src="assets/images/wireframe1.png">
+   
 
-## Release History
+    -   Quote Generator Page Wireframe -
+    <img src="assets/images/wireframe2.png">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    -   Comments/Feedback Page Wireframe
+    <img src="assets/images/wireframe3.png">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   Responsive on all device sizes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   Interactive elements
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Technologies Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Languages Used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Frameworks, Libraries & Programs Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Gipod](https://gitpod.io/)
+    - Gitpod was used for the mainpart of coding, testing and push through the terminal to commit to Gitpod and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [FormSubmit](https://formsubmit.co/)
+    - FormSubmit was used to get comments and feedbacks from users through sending attaching a form for the site. 
+1. [Canva](https://www.canva.com/)   
+    - Canva is used to create and edit the and background picture video.
+1. [Youtube](https://www.youtube.com/)
+    - Youtube is used to upload the store the video.    
+1. [Favicon](https://favicon.io/)
+    - Favicon is used to create the icon for the title of the webpage.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The website has also been tested through Lighthouse.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/htmlvalidator.png">
 
-------
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/cssvalidator.png">
 
-## FAQ about the uptime script
+-   [JShint] (https://jshint.com/about/) <img src="assets/images/jshint.png">
 
-**Why have you added this script?**
+-   Lighthouse testing results : [Lighthouse] <img src="assets/images/lighthouse.png">
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Further Testing
 
-**How will this affect me?**
+-   The Website was tested on Google Chrome and other browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone SE, iPhone 12 Pro & ipad Air.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Known Bugs
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-   JShint and lighthouse has showed a few bugs but it is not of concern. 
+-   While testing the Navigation bar at some screen does push downwards and to the side. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Deployment
 
-**So….?**
+### GitHub Pages
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The project was deployed to GitHub Pages using the following steps...
 
-**Can I opt out?**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Onursoyar/Quote-generator)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "main" and select "root".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Credits
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Code
 
-**Anything more?**
+-   I have taken inspiration for writing the code from a few sources online. My coding style is also inspired from those sources. I have gone through vidoes on youtube and codes on google to have a better understanding. I have also been inspired byt  a few sources and hence decided to base my project on those ispirations.
+- Major part of my project is based on the Quotes through the API and I have learned and taken API from external sources given below.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Content
+- [Code to figure out installing an API on a webpage using Javascript](https://dev.to/nehasoni__/random-quote-generator-using-html-css-and-javascript-3gbp)
+- [Link for the Quotes API](https://type.fit/api/quotes)
+- [Javascript Quote generator Tutorial source 1](https://www.youtube.com/watch?v=r-NkGGxTgZs)
+- [Javascript Quote generator Tutorial source 2](https://www.youtube.com/watch?v=NmstSmMykqc)
+- [Javascript Quote generator Tutorial source 3](https://www.codeleaks.io/random-quote-generator-using-html-css-and-javascript/)
+- [Javascript Quote generator Tutorial source 4](https://www.geeksforgeeks.org/random-quote-generator-using-html-css-and-javascript/)
 
----
+### Media
 
-Happy coding!
+-   All the quotes that are generated are from the API.
+-   The video on the Home page was created by me usinG Canva and uploaded to youtube to run on home page.
+
+### Acknowledgements
+
+-   My Mentor for his helpful feedback and suggestions.
+
+-   Student support, tutor support and community at Code Institute for their support and problem solving.
+- 
