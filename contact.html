@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/faviconicon.png">
 
-    <title>QuoteNator</title>
+    <title>QuotoNator</title>
 </head>
 
 <body>
+    <!--This is the header part for the logo and navigation links-->
     <header>
         <h1 id="logo"><a href="index.html">Quotonator <i class="far fa-comment-dots"></i>
             </a></h1>
@@ -36,17 +37,19 @@
             <div class="contact-box">
                 <h2 class="contact-heading">Leave a comment <i class="far fa-comment"></i></h2>
                 <p class="contact-heading-text">Do you have any comments or feedbacks ?</p>
-                <p>Great! Enter your information below to get in touch <i class="fas fa-arrow-down"></i></p>
+                <p class="contact-heading-text">Great! Enter your information below to get in touch <i
+                        class="fas fa-arrow-down"></i></p>
 
             </div>
+            <!--This section below is for the comments/feebakcs and formsubmit.co is being used in order to recieve feedbacks from users-->
             <div>
                 <form class="contact-form" action="https://formsubmit.co/soyaronur@gmail.com" method="POST">
                     <input type="hidden" name="_template" value="table">
                     <input type="hidden" name="_autoresponse"
                         value="Hello there! Thank you for getting in touch. I will reply to your feedback/Comment as soon as I can. ">
-                    <label class="form-name" for="name-input">Name</label>
+                    <label class="form-name">Name</label>
                     <input class="name-input" type="text" name="name" placeholder="Full Name" required><br>
-                    <label class="form-email" for="email-input">Email </label>
+                    <label class="form-email">Email </label>
                     <input class="email-input" type="email" name="email" placeholder="Email Address" required><br>
                     <label class="form-message">Comments below <i class="fas fa-arrow-down"></i></label><br>
                     <textarea class="message-input" name="message" placeholder="Comments or any feedbacks"
@@ -59,10 +62,8 @@
 
     </section>
 
-
+    <!--The footer area where all the social media links and copyright is given-->
     <footer>
-
-
         <ul class="social-media">
 
             <li>

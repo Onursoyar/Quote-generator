@@ -203,23 +203,20 @@ footer {
     height: 520px;
     padding: 10px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 
 /* The start button for the quote generator page */
 .main-start {
-    margin-top: 40px;
+    margin-top: 700px;
     font-size: 30px;
-    background-color: #143F6B;
-    color: whitesmoke;
+    background-color: whitesmoke;
     padding: 8px;
     border: 2px solid #FEB139;
     border-radius: 10px;
 }
 
-.main-start:hover {
-    background-color: whitesmoke;
-    color: #143F6B;
-}
+
 
 /* The contact form box and sign up */
 
@@ -399,4 +396,275 @@ footer {
     color: #143F6B;
     background-color: whitesmoke;
     border: 8px solid #FEB139;
+}
+
+/* media queries */
+
+/* for medium sized screens from 900px wide and less */
+@media screen and (max-width: 900px) {
+    #logo {
+        font-size: 250%;
+    }
+
+    .box {
+        width: 75%;
+    }
+
+    .contact-main {
+        width: 75%;
+    }
+}
+
+/* for smaller screen sizes from 820px wide and less */
+@media screen and (max-width: 820px) {
+    #logo {
+        font-size: 250%;
+    }
+
+    .box {
+        width: 85%;
+    }
+
+    .contact-main {
+        width: 80%;
+    }
+
+    .generator-box {
+        height: 475px;
+        width: 65%;
+    }
+
+    .contact-box {
+        font-size: 17px;
+        width: 85%;
+    }
+
+    .gif-box {
+        width: 85%;
+    }
+
+    .contact-form {
+        width: 85%;
+    }
+}
+
+/* for smaller screen sizes from 700px wide and less */
+@media screen and (max-width: 700px) {
+    #logo {
+        font-size: 175%;
+        margin-left: 30px;
+    }
+
+    .contact-nav {
+        font-size: 70%;
+        margin-left: 25px;
+    }
+}
+
+/* for smaller screen sizes from 570px wide and less */
+@media screen and (max-width: 570px) {
+    .contact-nav {
+        font-size: 55%;
+        margin-left: 30px;
+    }
+
+    .navigation {
+        margin-right: 10px;
+    }
+
+    .navigation li {
+        margin-right: 10px;
+    }
+
+    .gif0 {
+        width: 75%;
+        height: 300px;
+    }
+
+    .welcome-text {
+        font-size: 25px;
+    }
+
+    .video-box {
+        height: 400px;
+        width: 95%;
+    }
+
+    .home-video {
+        height: 390px;
+    }
+
+    .box {
+        height: 1030px;
+        width: 97%;
+    }
+
+    .generator-box {
+        width: 80%;
+    }
+
+    .quotes {
+        font-size: 25px;
+    }
+
+    .contact-main {
+        width: 90%;
+    }
+
+    .contact-box {
+        font-size: 16px;
+    }
+
+    .social-media i {
+        font-size: 200%;
+        letter-spacing: 50px;
+    }
+}
+
+/* for smaller screen sizes from 450px wide and less */
+@media screen and (max-width: 450px) {
+    .gif0 {
+        width: 90%;
+    }
+
+    .welcome-text,
+    .welcome-p {
+        font-size: 20px;
+    }
+
+    .generator-box {
+        width: 90%;
+    }
+
+    .quotes,
+    .quotee {
+        font-size: 18px;
+    }
+
+    .footer {
+        height: 100px;
+    }
+
+    .form-message,
+    .form-name,
+    .form-email {
+        font-size: 20px;
+    }
+
+    .email-input {
+        margin-bottom: 15px;
+        width: 250px;
+    }
+
+    .name-input {
+        margin-bottom: 10px;
+        width: 250px;
+    }
+
+    .name-input,
+    .email-input,
+    .message-input {
+        margin-top: 10px;
+    }
+
+    .contact-nav {
+        font-size: 40%;
+        margin-left: 30px;
+    }
+
+    .navigation {
+        margin-right: 5px;
+    }
+
+    .gif-box {
+        height: 370px;
+    }
+
+    .gif1 {
+        height: 350px;
+    }
+
+    .social-media i {
+        letter-spacing: 20px;
+        font-size: 200%;
+        margin: 5%;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    #logo {
+        font-size: 130%;
+    }
+
+}
+
+/* for smaller screen sizes from 350px wide and less */
+@media screen and (max-width: 350px) {
+    #logo {
+        font-size: 100%;
+        margin-left: 5px;
+    }
+
+    .navigation li {
+        margin-right: 2px;
+        font-size: 17px;
+    }
+
+    .navigation {
+        margin-right: 2px;
+    }
+
+    .gif0 {
+        width: 90%;
+        height: 200px;
+    }
+
+    .welcome-text,
+    .welcome-p {
+        font-size: 17px;
+    }
+
+    .video-box {
+        height: 200px;
+    }
+
+    .home-video {
+        height: 180px;
+    }
+
+    .box {
+        height: 720px;
+    }
+
+    .main-start {
+        font-size: 20px;
+    }
+
+    .gif-box {
+        height: 180px;
+    }
+
+    .gif1 {
+        height: 170px;
+    }
+
+    .contact-heading,
+    .contact-heading-text {
+        font-size: 15px;
+    }
+
+    .contact-box {
+        height: 200px;
+    }
+
+    .name-input {
+        width: 60%;
+    }
+
+    .email-input {
+        width: 60%;
+    }
 }
