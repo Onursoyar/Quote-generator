@@ -136,8 +136,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Code
 
--   I have taken inspiration for writing the code from a few sources online. My coding style is also inspired from those sources. I have gone through vidoes on youtube and codes on google to have a better understanding. I have also been inspired byt  a few sources and hence decided to base my project on those ispirations.
-- Major part of my project is based on the Quotes through the API and I have learned and taken API from external sources given below.
+-   I have taken inspiration for writing the code from a few sources online. My coding style is also inspired from those sources. I have gone through vidoes on youtube and codes on google to have a better understanding. I have also been inspired by  a few sources and hence decided to base my project on those ispirations.
+- Major part of my project is based on the Quotes through the API and I have learned and taken API from external sources and the codes given below.
 
 ### Content
 - [Code to figure out installing an API on a webpage using Javascript](https://dev.to/nehasoni__/random-quote-generator-using-html-css-and-javascript-3gbp)
